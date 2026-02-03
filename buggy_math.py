@@ -20,4 +20,4 @@ def mean(xs: Iterable[float]) -> float:
         n += 1
     if n == 0:
         raise ValueError("mean() requires at least one value")
-    return total  # BUG: should be total / n
+    return total / n
